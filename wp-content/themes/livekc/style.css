@@ -1,0 +1,280 @@
+/******************************************************************
+Theme Name: LiveKC
+Theme URI: http://www.michelleschneider.com/
+Description: The goal is simple—make Kansas City a more attractive place for Millennials to live, work and play..
+Author: Michelle Schneider
+Author URI: http://www.michelleschneider.com
+Version: 1.0
+License: WTFPL
+******************************************************************/
+
+@font-face {
+    font-family: 'rock_saltregular';
+    src: url('fonts/RockSalt-webfont.eot');
+    src: url('fonts/RockSalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/RockSalt-webfont.woff') format('woff'),
+         url('fonts/RockSalt-webfont.ttf') format('truetype'),
+         url('fonts/RockSalt-webfont.svg#rock_saltregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* Reset */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block
+}
+body {
+	line-height: 1
+}
+ol, ul {
+	list-style: none
+}
+blockquote, q {
+	quotes: none
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+body {
+	font: 13px/1.1 Helvetica, sans-serif;
+}
+p {
+	line-height: 1.6;
+}
+/* Example page */
+strong {
+	font-weight: bold;
+}
+header {
+	height: 100px;
+}
+header img {
+	float: left;
+	margin: 14px 0 0 14px
+}
+header h1 {
+	margin-left: 14px;
+	float: left;
+	font-size: 20px;
+	line-height: 100px;
+}
+section {
+	min-height: 700px;
+	position: relative;
+	width: 100% !important;
+	min-width: 1000px;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+section:nth-of-type(1) {
+	background: whitesmoke;
+	height: 1000px;
+}
+section:nth-of-type(2) {
+	background: black;
+	height: 1000px;
+}
+/*//////////Black Section ///////////*/
+#black>div:nth-of-type(1) {
+	background: url(img/live_black.jpg) 50% 0 no-repeat fixed;
+	margin: 0;
+	height: 1000px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#black p {
+	color:#fff;
+	font-family:'proxima nova', Helvetica, sans-serif;	
+	font-size:24px;
+	line-height:28px;
+	margin-bottom:30px;
+}
+.uppercase {
+	text-transform: uppercase;	
+}
+.large {
+	font-size:40px;	
+}
+/*//////////White Section ///////////*/
+#white>div:nth-of-type(1) {
+	background: url(img/skyline_kc_white.jpg) 50% 0 no-repeat fixed;
+	margin: 0;
+	height: 1000px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+#white>div:nth-of-type(2) {
+	background: url(img/nike.png) 50% 0 no-repeat fixed;
+	margin: 0;
+	height: 1200px;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	width: 100%;
+}
+#white p {
+	color:#000;
+	font-family:'proxima nova', Helvetica, sans-serif;	
+	font-size:30px;
+	font-weight:bold;
+	line-height:36px;
+	margin-bottom:15px;
+	text-shadow: 2px 2px 2px #fff;
+}
+.lined {
+ padding:20px 0px;
+ border-top:solid 10px #000;
+ border-bottom:solid 10px #000;	
+}
+/*//////////Color Section ///////////*/
+#color>div:nth-of-type(1) {
+	background: url(img/evekc.jpg) 50% 50% no-repeat fixed;
+	margin: 0;
+	height: 700px;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+.eventBox {
+	background:rgba(0,0,0,0.5);
+	text-align:center;
+	border-radius:10px;
+	padding:10px;
+margin-top:200px;
+}
+#color p {
+	color:#fff;
+	font-size:30px;	
+}
+#colorHead {
+	font-weight:bold; 
+	text-shadow: 2px 2px 2px #000;
+	font-family: 'proxima nova', Helvetica, sans-serif;
+}
+section h1 {
+	color: #4F9426;
+	width: 300px;
+	font-size: 65px;
+	margin-bottom: 14px;
+}
+.box-wrapper {
+	margin:auto;
+	clear:both;
+	width:780px;
+	
+}
+.box {
+	width:250px;
+	background:#fff;
+	box-shadow: 1px 1px 1px #000;
+	height:300px;
+	float:left;
+	margin:5px;	
+	
+}
+.picFrame {
+	width:220px;
+	height:220px;
+	background:#000;
+	margin:15px;	
+}
+.picTitle {
+	font-family:'proxima nova', Helvetia, sans-serif;
+	color:#00aeef;
+}
+.picTitle a {
+	color:#00aeef;
+}
+/*section p {
+	color: black;
+	width: 300px;
+} */
+section article {
+	position: relative;
+	margin: auto;
+	width: 900px;
+	text-align:center;
+	z-index: 4;
+	margin-top:100px;
+}
+.parallax-item {
+	position: absolute;
+	z-index: 5;
+	top: 40px;
+	left: 400px;
+}
+footer {
+	height:250px;
+	background:#000;
+	color:#fff;
+	text-align:center;
+	padding:0;	
+}
+.flood {
+	font-family:'flood-std', Helvetica, sans-serif;
+}
+.footTag {
+	font-size:28px;	
+}
+#social {
+	font-size:30px;
+	padding:5px;
+	margin: 10px;	
+}
+#social span {
+	margin: 0px 5px;	
+}
+#socialize {
+	border: 2px solid #fff;
+	border-radius: 5px;
+	text-transform:uppercase;
+	font-size:16px;
+	width:200px;
+	text-align:center;
+	padding:8px 5px 5px;	
+	margin:auto;
+	margin-top:20px;
+	font-family: 'proxima nova', Helvetica, sans-serif;
+}
+.social-icons {
+	padding-top:20px;
+}
+.social-icons a,.social-icons a:visited {
+	text-decoration:none;
+	color:#fff;
+	font-size:24px;
+	padding:10px 10px;
+}
+.social-icons a:hover {
+	color:#00aeef !important;
+}
+.tag {
+	padding-top:20px;
+}
+.rocksalt {
+	font-family: 'rock_saltregular', Arial, sans-serif;
+	color:#00aeef;
+	font-size:2em;
+}
+.upper50 { padding-top:50px;}

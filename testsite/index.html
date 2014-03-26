@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+    <title>LiveKC | Join The Movement</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/font-style.css">
+    <!--[if lt IE 8]><!-->
+	<link rel="stylesheet" href="ie7/ie7.css">
+	<!--<![endif]-->
+    <script type="text/javascript" src="//use.typekit.net/lgs3yky.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+</head>
+<body>
+    <!--<header>
+        <img src="img/logo.png" />
+        <h1>Scrolly: a simple jQuery parallax plugin</h1>
+    </header> -->
+
+    <section id="black">
+        <article>
+        <img src="img/logo_white_notag.png" style="margin-bottom:30px;" />
+        <p>We've been called narcissistic. Overconfident. Entitled. Lazy.<br>
+We have the highest likelihood of unmet expectations.<br>
+Did you know we make up 12% of the Kansas City population?</p>
+        <p>Fear not. We are also earnest and optimistic.</p>
+        <p class="uppercase" style="font-size:36px;">And we're about to change this city.</p>  
+        </article>
+        <div class="parallax" data-velocity="-.3"></div>
+    </section>
+<!-- ///////////////////Section Divider///////////////////// -->    
+    <section id="white">
+        <article>
+        <img src="img/logo_black_notag.png" style="margin-bottom:30px;"  />
+        <p class="lined">The goal is simple&#8212;make Kansas City a more attractive place for Millennials to live, work and play.</p>    
+        </article>
+        <div class="parallax" data-velocity="-.1"></div>
+        <!--<div class="parallax" data-velocity="-.5" data-fit="525"></div> -->
+    </section>
+<!-- ///////////////////Section Divider///////////////////// --> 
+    <section id="color">
+<article>
+        <p style="margin-top:200px; font-weight:bold; text-shadow: 2px 2px 2px #000;">LiveKC Events</p>
+        <div id="box-wrapper">
+        	<div id="box">
+            	<div class="picFrame"></div>
+               <div class="picTitle">Art Fair</div>
+        	</div>
+        	<div id="box">
+           	<div class="picFrame"></div>
+            	<div class="picTitle">Smash KC</div>
+        	</div>
+       	 	<div id="box">
+           	<div class="picFrame"></div>
+            	<div class="picTitle">Eve KC</div>
+        	</div>
+        	</div>
+        </article>
+        <div class="parallax" data-velocity="-.2"></div>
+    </section>
+ <footer>
+
+	<p class="flood footTag">It's time for you to</p>
+    <img src="img/logo_white_notag.png" width="40" height="40" /><br>
+    <div id="socialize">Socialize with us</div>
+    <div id="social">
+    <span class="icon-facebook3"></span>
+    <span class="icon-twitter3"></span>
+    <span class="icon-instagram"></span>
+    <span class="icon-envelope"></span>
+    </div>
+    
+</footer>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.scrolly.js"></script>
+<script>
+    $(document).ready(function(){
+       $('.parallax').scrolly({bgParallax: true});
+    });
+</script>
+</body>
+</html>
